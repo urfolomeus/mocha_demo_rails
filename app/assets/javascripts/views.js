@@ -1,3 +1,3 @@
-appendTo = function(applicationRoot) {
+var appendTo = function(applicationRoot) {
   return $(applicationRoot).append('<div class="hello-world">Hello, world!</div>');
 };
