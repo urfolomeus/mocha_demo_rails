@@ -7,7 +7,8 @@ gem 'jquery-rails'
 
 group :development, :test do
   gem 'konacha'
-  # gem 'selenium-webdriver'
+  gem 'poltergeist'
+  gem 'guard-konacha'
 end
 
 group :assets do
